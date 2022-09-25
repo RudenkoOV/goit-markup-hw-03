@@ -51,7 +51,7 @@ h1, h2, h3, h4, p, ul {
 
 .container {
     margin: 0 auto;
-    width: 1600px;
+    width: 1200px;
 }
 
 .section {
@@ -76,12 +76,7 @@ h1, h2, h3, h4, p, ul {
     padding-bottom: 25px;
    }
    
-.head:first-child {
-padding-left: 215px;
-}
-.head:last-child {
-padding-right: 215px;
-}
+
 .header-logo {
     font-family:'Raleway';
     font-weight: 700;
@@ -182,7 +177,7 @@ padding-right: 215px;
 .work-list {
     display: inline-flex;
     gap: 30px;
-    margin-left: 215px;
+    /* margin-left: 215px; */
     }
 
 .work-list li {
@@ -334,7 +329,7 @@ ul {
     display: inline-flex;
     gap: 8px;
     justify-content: center;
-    width: 1600px;
+    width: 1200px;
 }
 
 .btn-portfolio {
@@ -379,21 +374,27 @@ ul {
 }
 
 .project-title {
-    display: block;
-    min-width: 322px;
+    width: 370px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--cases-list-item-name-txt);
-    margin-left: 24px;
-    margin-top: 20px;
+    padding-left: 24px;
+    padding-top: 20px;
+            border-left: 1px solid var(--border-header);
+        border-right: 1px solid var(--border-header);
    }
 
 .project-description {
+    width: 370px;
     font-size: 16px;
     line-height: 1.88;
     color: var(--cases-list-item-spec-txt);
-    margin-left: 24px;
-    margin-top: 4px;
+    padding-left: 24px;
+    padding-top: 4px;
     margin-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid var(--border-header);
+    border-left: 1px solid var(--border-header);
+    border-right: 1px solid var(--border-header);
 }
